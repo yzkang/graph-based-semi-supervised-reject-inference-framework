@@ -19,7 +19,7 @@ The RI-DAB model uses the reject inference method named “Define as bad”, i.e
 Reject inference using extrapolation. The RI-EXP model uses the reject inference method named “Extrapolation”, which assigns good-bad labels to the rejects based on the scoring model learned from accepted applicants, then a usual credit scoring model can be estimated. No imbalanced learning method is used as well.
 
 ## RI-LS.py
-The RI-LS model uses the semi-supervised learning algorithm label spreading to proceed reject inference for rejected data without imbalanced learning. We want to test its performance with the other reject inference methods.
+The RI-LS model uses the semi-supervised learning algorithm label spreading to proceed reject inference for rejected data without imbalanced learning. 
 
 ## RI-BSLS.py
 RI-BSLS is our proposed novel reject inference framework for credit scoring, which uses an over-sampled accepted dataset and a randomly sampled rejected data subset for reject inference. Then a binary classification model training follows.
