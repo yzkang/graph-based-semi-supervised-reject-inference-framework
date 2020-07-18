@@ -23,3 +23,6 @@ The RI-LS model uses the semi-supervised learning algorithm label spreading to p
 
 ## RI-BSLS.py
 RI-BSLS is our proposed novel reject inference framework for credit scoring, which uses an over-sampled accepted dataset and a randomly sampled rejected data subset for reject inference. Then a binary classification model training follows.
+
+## Label-Spreading-Example.py
+To make it better understanding, we provide an example to show how label spreading algorithm works.
